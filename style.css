@@ -1,0 +1,132 @@
+html body {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+    width: auto;
+    margin: 0;
+   
+}
+.navbar li {
+    list-style: none;
+    width: auto;
+    padding: 1% 4%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 70px;
+    background-color: black;
+    border-top: white solid 1px;
+    margin: 0;
+}
+.navbar a {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #0c0000;
+    
+}
+.title{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    align-self: center;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-self: center;
+    padding: 10px 30px;
+}
+
+.central-band {
+    padding: 40px 20px;
+    
+}
+
+article {
+    text-align: justify;
+}
+
+.article1 img, .article2 img {
+    width: 20em;
+    padding: 3em 5em;
+}
+
+.article2 {
+    flex-direction: row-reverse;
+    
+}
+
+.black-band {
+    background-color: black;
+    color: white;
+    padding: 30px 10px; 
+    
+}
+
+.partage {
+    display: list-item;
+    border: 4px solid white;
+    border-radius: 20px;
+
+
+}
+.partage p {
+    padding-bottom: 2%;
+}
+.suscribe {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 50px 10px;
+    font-size: 110%; 
+}
+
+.input-field {
+    display: flex;
+    justify-content: start;
+    width: max-content;
+}
+input [type="email"] {
+    width: 10px;
+}
+.img-footer img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.img-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 30px 20px;
+
+}
+.text-center {
+    text-align: center;
+    text-transform: uppercase;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    width: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+

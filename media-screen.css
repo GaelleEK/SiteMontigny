@@ -1,0 +1,26 @@
+@media screen and (max-width: 980px) {
+
+    header img {
+        display: none;
+    } 
+    article {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+ 
+ }
+
+ @media screen and (max-width: 350px) {
+
+    body {
+        margin-bottom: 0;
+    }
+
+   footer {
+       position: fixed;
+       bottom: auto;
+   }
+ }
+
+
