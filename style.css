@@ -4,13 +4,19 @@ html body {
     height: auto;
     width: auto;
     margin: 0;
-   
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 .navbar li {
     list-style: none;
     width: auto;
     padding: 1% 4%;
 }
+
 .navbar ul {
     display: flex;
     justify-content: space-between;
@@ -20,6 +26,7 @@ html body {
     border-top: white solid 1px;
     margin: 0;
 }
+
 .navbar a {
     color: white;
 }
@@ -28,9 +35,10 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #0c0000;
-    
+
 }
-.title{
+
+.title {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -40,7 +48,7 @@ header {
 
 section {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     align-self: center;
     padding: 10px 30px;
@@ -48,8 +56,9 @@ section {
 
 .central-band-pc {
     padding: 40px 20px;
-    
+
 }
+
 .central-band-mobile {
     display: none;
 }
@@ -58,21 +67,22 @@ article {
     text-align: justify;
 }
 
-.article1 img, .article2 img {
+.article1 img,
+.article2 img {
     width: 20em;
     padding: 3em 5em;
 }
 
 .article2 {
     flex-direction: row-reverse;
-    
+
 }
 
 .black-band {
     background-color: black;
     color: white;
-    padding: 30px 10px; 
-    
+    padding: 30px 10px;
+
 }
 
 .partage {
@@ -82,14 +92,16 @@ article {
 
 
 }
+
 .partage p {
     padding-bottom: 2%;
 }
+
 .suscribe {
     display: flex;
     justify-content: space-around;
     padding: 10px 10px 50px 10px;
-    font-size: 110%; 
+    font-size: 110%;
 }
 
 .input-field {
@@ -97,15 +109,18 @@ article {
     justify-content: start;
     width: max-content;
 }
+
 input [type="email"] {
     width: 10px;
 }
+
 .img-footer img {
     width: 100px;
     height: 100px;
     padding: 10px;
-    
+
 }
+
 .img-footer {
     display: flex;
     align-items: center;
@@ -113,10 +128,12 @@ input [type="email"] {
     padding: 10px 20px 30px 20px;
 
 }
+
 .text-center {
     text-align: center;
     text-transform: uppercase;
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -125,11 +142,10 @@ footer {
     padding-bottom: 10px;
     width: border-box;
 }
+
 a {
     text-decoration: none;
     color: black;
     font-weight: 500;
-    
+
 }
-
-

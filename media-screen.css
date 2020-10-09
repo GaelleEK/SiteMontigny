@@ -2,33 +2,48 @@
 
     header img {
         display: none;
-    } 
+    }
+    
+    .navbar ul {
+        display: block;
+        flex-direction: column;
+        width: 10%;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar li {
+        writing-mode: vertical-lr;
+    }
+
     article {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
- 
- }
 
- @media screen and (max-width: 350px) {
+}
+
+@media screen and (max-width: 350px) {
 
     body {
         margin-bottom: 0;
     }
+
     .central-band-pc {
         display: none;
     }
+
     .central-band-mobile {
         display: flex;
         flex-direction: column;
-        
+
     }
-    
-   footer {
-       position: fixed;
-       bottom: auto;
-   }
- }
 
-
+    footer {
+        position: fixed;
+        bottom: auto;
+    }
+}
