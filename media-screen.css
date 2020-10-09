@@ -16,7 +16,15 @@
     body {
         margin-bottom: 0;
     }
-
+    .central-band-pc {
+        display: none;
+    }
+    .central-band-mobile {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
    footer {
        position: fixed;
        bottom: auto;
