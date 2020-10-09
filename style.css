@@ -46,9 +46,12 @@ section {
     padding: 10px 30px;
 }
 
-.central-band {
+.central-band-pc {
     padding: 40px 20px;
     
+}
+.central-band-mobile {
+    display: none;
 }
 
 article {
