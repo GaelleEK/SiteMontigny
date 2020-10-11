@@ -3,19 +3,27 @@
     header img {
         display: none;
     }
-    
-    .navbar ul {
-        display: block;
-        flex-direction: column;
+
+    .menu-mobile img {
         width: 10%;
-        height: 100%;
-        position: fixed;
-        overflow: auto;
-        padding: 0;
-        margin: 0;
     }
-    .navbar li {
-        writing-mode: vertical-lr;
+
+    .menu-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    ul.menu {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar:hover ul.menu {
+        display: flex;
+        padding: 10px;
+
     }
 
     article {
@@ -32,6 +40,7 @@
         margin-bottom: 0;
     }
 
+
     .central-band-pc {
         display: none;
     }
@@ -39,7 +48,12 @@
     .central-band-mobile {
         display: flex;
         flex-direction: column;
+    }
 
+    .central-band-mobile a {
+        display: flex;
+
+        justify-content: center;
     }
 
     footer {
