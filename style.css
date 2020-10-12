@@ -9,6 +9,8 @@ html body {
 .navbar {
     background-color: black;
 }
+.menu-mobile {
+    display: none;
 }
 
 .navbar li {

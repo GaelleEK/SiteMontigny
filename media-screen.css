@@ -56,8 +56,16 @@
         justify-content: center;
     }
 
-    footer {
-        position: fixed;
-        bottom: auto;
+    .img-footer {
+        display: none;
     }
+
+    .partage:hover .img-footer {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+   
+    
 }
